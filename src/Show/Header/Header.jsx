@@ -3,14 +3,8 @@ import React, { Component } from 'react';
 import Styles from './Header.module.scss';
 
 const cx = classname.bind(Styles);
-class Header extends Component {
-    render() {
-        return (
-            <div className={cx('Header')}>
-                Header
-            </div>
-        );
-    }
+function Header() {
+    return ( <h1 className={cx("Header")}>Header</h1> );
 }
 
 export default Header;

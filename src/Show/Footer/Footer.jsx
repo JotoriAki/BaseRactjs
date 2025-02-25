@@ -3,14 +3,8 @@ import React, { Component } from 'react';
 import Styles from './Footer.module.scss';
 
 const cx = classname.bind(Styles);
-class Footer extends Component {
-    render() {
-        return (
-            <div className={cx('footer')}>
-                Footer
-            </div>
-        );
-    }
+function Footer() {
+    return ( <h1>Footer</h1> );
 }
 
 export default Footer;
